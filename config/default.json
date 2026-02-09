@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://VaishnaviJawalkar:vishclara1634@cluster0.cnxqddp.mongodb.net/?appName=Cluster0",
-    "jwtSecret" : "mysecrettoken"
+    "jwtSecret" : "mysecrettoken",
+    "githubClientId":"Ov23liPi6m7kjOvRuZAZ",
+    "githubSecret":"9b6ab75d4e9335befdaaef15b3b00a19c69aa918"
 } 

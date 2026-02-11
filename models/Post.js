@@ -8,20 +8,21 @@ const PostSchema = new Schema({
     },
     text:{
         type: String,
-        required:truncates,
+        required:true
     },
     name:{
         type: String
     },
     avatar:{
-        type:toString
+        type: String
     },
-    likes:{
+    likes:[{
         user:{
             type: Schema.Types.ObjectId,
             ref: 'users'
         }
-    },
+        }
+    ],
     comments:[
         {
             user:{
@@ -36,7 +37,7 @@ const PostSchema = new Schema({
                 type: String
             },
             avatar:{
-                type:toString
+                type: String
             },
             date:{
                 type: Date,
